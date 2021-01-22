@@ -1,0 +1,4 @@
+rootProject.name = 'spring-gradle-training-01'
+
+include 'client'
+include 'server'

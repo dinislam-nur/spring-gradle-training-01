@@ -1,15 +1,17 @@
 package ru.dinislam.server.service;
 
+import ru.dinislam.server.dto.Response;
+
 public interface BillService {
 
-    void fill(Long billId, Long value);
+    Response fill(Long billId, Long value);
 
-    void writeOff(Long billId, Long value);
+    Response writeOff(Long billId, Long value);
 
-    void transfer(Long source, Long target, Long value);
+    Response transfer(Long source, Long target, Long value);
 
-    void create(Long billId);
+    Response create(Long billId);
 
-    void close(Long billId);
+    Response close(Long billId);
 
 }

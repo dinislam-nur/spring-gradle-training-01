@@ -10,8 +10,3 @@ spring:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
   activemq:
     broker-url: tcp://localhost:61616
-    user: admin
-    password: admin
-  jms:
-    template:
-      default-destination: request
